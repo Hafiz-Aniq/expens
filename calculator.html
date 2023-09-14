@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculator.css">
+    <title>Income and Expense Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Income and Expense Calculator</h1>
+        
+        <div class="section">
+            <h2>Income</h2>
+            <input type="number" id="incomeAmount" placeholder="Enter income amount">
+            <button id="addIncome">Add Income</button>
+        </div>
+        
+        <div class="section">
+            <h2>Expenses</h2>
+            <input type="number" id="expenseAmount" placeholder="Enter expense amount">
+            <button id="addExpense">Add Expense</button>
+        </div>
+        
+        <div class="section">
+            <h2>Profit</h2>
+            <p>Total Income: <span id="totalIncome">0</span></p>
+            <p>Total Expenses: <span id="totalExpenses">0</span></p>
+            <p>Profit: <span id="profit">0</span></p>
+        </div>
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>
